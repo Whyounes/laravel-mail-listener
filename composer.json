@@ -1,0 +1,31 @@
+{
+  "name": "whyounes/laravel-mail-listener",
+  "description": "Laravel 5 Mail listener package",
+  "keywords": [
+    "laravel",
+    "mail"
+  ],
+  "homepage": "https://github.com/whyounes/laravel-mail-listener",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "RAFIE Younes",
+      "email": "younes.rafie@gmail.com",
+      "homepage": "https://younesrafie.com"
+    }
+  ],
+  "require": {
+    "php": "^5.5.9 || ^7.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^4.8 || ^5.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Whyounes\\Mailman\\": "src"
+    },
+    "classmap": [
+      "tests"
+    ]
+  }
+}
